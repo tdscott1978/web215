@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://use.typekit.net/rcq1axg.css");
+
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000B29;
+    font-family: acier-bat-solid,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    align-items: center;
+    width: 100%;
+    color: #EDB83D;
+    text-align: center;
+    
+ }
+
+body { 
+    font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        margin: auto;
+        background-color: #EDB83D;
+
+ }
+
+ .main {
+     background-color: #e9dcc9;
+     padding: 20px;
+     width: 80%;
+     margin: auto;
+    
+ }
+
+ .colors {
+    width: 25%;
+    padding: 10px;
+    float: left;
+   
+}
+
+.colorname {
+    margin-top: 6px;
+    font-family: Lato, sans-serif;
+    color: #3e4749;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+}
+
+.colorhex {
+    margin-top: 1px;
+    color: #879499;
+    text-align: center;
+}
+
+ .circle {
+  
+    background-color: #000B29;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 100px;
+  }
+
+  .circle.one {
+    background-color: #D70026;
+  }
+
+  .circle.two {
+    background-color: #F8F5F2;
+  }
+
+  .circle.three {
+    background-color: #EDB83D;
+  }
+
+ .tagline { 
+     font-style: italic;
+    text-align: center;
+    color: #D70026;
+}
+
+.font1  {
+    font-family: nimbus-sans-extended,sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.font2 {
+    font-family: fort-xcondensed,sans-serif;
+font-weight: 400;
+font-style: bold;
+}
+
+.font3 {
+    font-family: thonglor,sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+footer {
+    width: 100%;
+    background-color: #000B29;
+    color: #EDB83D;
+    text-align: center;
+}
