@@ -92,14 +92,14 @@ body {
 
 .font1  {
     font-family: nimbus-sans-extended,sans-serif;
-font-weight: 700;
+font-weight: 800;
 font-style: normal;
 }
 
 .font2 {
-    font-family: fort-xcondensed,sans-serif;
-font-weight: 400;
-font-style: bold;
+    font-family: fort,sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .font3 {
