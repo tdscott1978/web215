@@ -30,6 +30,10 @@ body {
 
  }
 
+ main { 
+     min-height: 300px;
+ }
+
  .main {
      background-color: #e9dcc9;
      padding: 20px;
