@@ -4,32 +4,64 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel = "stylesheet" type = "text/css" href = "styles/brand.css" />
 
-    <title>Terrell Scott | WEB215 |TOC</title>
+    <title>Terrell Scott | WEB215 | Dynamic TOC</title>
   
 </head>
 <body>
 
     <header>
             <h1>All-Time Albums</h1>
-     </header>
+            <div id="mySidenav" class="sidenav">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <a href="index.html">Index</a>
+               <a href="contract.html">Contract</a>
+               <a href="intro.html">Introduction</a>
+               <a href="brand.html">Brand Guide</a>
+             </div>
+             <span class="menu"  onclick="openNav()">&#9776; menu</span>
 
-    
- <main>
+     </header>
+<section id="content">
+    <div id="container">
      <h2>Table of Contents</h2>
 
-     <div>
+    <div>
      <ul>
          <li><a href="contract.html">Contract</a></li>
          <li><a href="intro.html">Intro</a></li>
          <li><a href="brand.html">Brand</a></li>
      </ul>
-     </div>
+    </div>
 
- </main>
+ 
+ 
+
+    </div>
+</section>
+    
+ 
 
     <footer> 
        
       <hr>
+      <div class="links">
+         <a href="https://github.com/tdscott1978/web215">
+            <img src="images/github-white.png" alt="Github icon">
+         </a>
+         
+         <a href="https://www.freecodecamp.org/tscott1978">
+            <img src="images/fcc_primary_small.png" alt="fcc logo">
+         </a>
+         <a href="https://www.codecademy.com/profiles/tscott33">
+            <img src="images/ccwhite.png" alt="cc logo">
+         </a>
+         <a href="https://jsfiddle.net/user/tdscott1978/fiddles/">
+            <img src="images/jsfiddle.png" alt="jsfiddle logo">
+         </a>
+         <a href="https://www.linkedin.com/in/terrellscottdesign/">
+            <img src="images/LI-In-Bug.png" alt="linkedin icon">
+         </a>
+         </div>
        <P>Designed by &copy;Terrell Scott</P>
        <a href="http://validator.w3.org/check?uri=https://tdscott1978.github.io/web215/index.html" style = "text-decoration: none">
           <img src="images/valid_html5.gif" alt="Validate HTML" />
@@ -40,5 +72,6 @@
          <img src="images/vcss-blue.gif" alt="Validate CSS" />
        </a>
     </footer>
+    <script src="scripts/brand.js"></script>
 </body>
 </html>
